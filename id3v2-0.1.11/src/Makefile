@@ -32,4 +32,5 @@ distclean:clean
 
 .PHONY: all clean
 
-#
+#Question  8: avec la commande suivante nous pouvons modifier la variable :"make LD_LIBRARY_PATH=new_directory"  où new_directory est le nouveau repertoire
+#Question 9: avec export PATH=$PATH:</chemin/du/fichier> ou on peut l'ajouter dans .bashrc 
