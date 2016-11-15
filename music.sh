@@ -9,7 +9,7 @@ dep=`cd $dir`
 archives=`ls *.tgz`
 echo $archives
 for i in $archives;do
-	echo "$1"
-#	tar -xzvf $1
+	echo "$i"
+	tar -xzvf $i
 done;
 
